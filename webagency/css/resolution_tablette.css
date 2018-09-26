@@ -1,0 +1,355 @@
+@-webkit-keyframes anim_gauche{
+    0%{
+        transform: translateX(0px);
+    }
+    
+    100%{
+        transform: translateX(154px);
+    }
+}
+
+@keyframes anim_gauche{
+    0%{
+        transform: translateX(0px);
+    }
+    
+    100%{
+        transform: translateX(154px);
+    }
+}
+
+
+@-webkit-keyframes anim_droite{
+    0%{
+        transform: translateX(0px);
+    }
+    
+    100%{
+        transform: translateX(-155px);
+    }
+}
+
+@keyframes anim_droite{
+    0%{
+        transform: translateX(0px);
+    }
+    
+    100%{
+        transform: translateX(-155px);
+    }
+}
+
+@-webkit-keyframes anim_haut{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes anim_haut{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(-100px);
+    }
+}
+
+@-webkit-keyframes anim_haut_plus{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(-298px);
+    }
+}
+
+@keyframes anim_haut_plus{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(-298px);
+    }
+}
+
+@-webkit-keyframes anim_bas{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(98px);
+    }
+}
+
+@keyframes anim_bas{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(98px);
+    }
+}
+
+/*Général*/
+.fa-circle{
+    border: 4px solid #ffffff;
+    font-size: 13px;
+}
+
+/*Fin Général*/
+
+/*HEADER*/
+
+.logo{
+    margin-top: 20px;
+}
+
+.logo img{
+    height: 40px;
+    width: 180px;
+}
+
+.header_nav{
+    margin-right: 30px;
+}
+
+.header_nav ul li{
+    font-size: 12px;
+    padding: 40px 10px 20px 10px;
+}
+
+#slider_image_bg2:target ~ .ban, #slider_image_bg3:target ~ .ban {
+    -webkit-transform: translateX(-783px);
+    transform: translateX(-783px);
+}
+
+.chevron-left, .chevron-right, .chevron-left-2, .chevron-right-2{
+    top: 40%;
+}
+
+.ban_text{
+   bottom: 18%;
+}
+
+.ban_text h1{
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.ban_text .button{
+    font-size: 10px;
+    padding: 6px;
+    border-radius: 4px;
+    width: 70px;
+}
+/*FIN HEADER*/
+
+/*SERVICE*/
+
+.service_intro{
+    padding: 10px;
+    width: 70%;
+}
+
+.service_intro .fa-circle{
+    bottom: 88px;
+}
+
+.service_intro p{
+    font-size: 14px;
+}
+
+.image_service{
+    width: 40%;
+}
+
+.categorie{
+    width: 60%;
+}
+
+ .image_service img{/*Image partie gauche*/
+    left: 2%;
+    width: 320px;
+    height: 200px;
+}
+
+.fa-chart-line, .fa-cubes, .fa-chart-pie{
+    font-size: 25px;
+}
+
+.categorie .fa-circle{
+    right: 12%;
+    font-size: 10px;
+}
+
+.categorie h3{
+    font-size: 16px;
+}
+
+.categorie p {
+    font-size: 12px;
+}
+
+.UX, .UI, .SEO{/*bloc de texte des services*/
+    width: 80%;
+    right: 3%;
+}
+
+/*FIN SERVICE*/
+
+/*PROJETS*/
+
+#projets{
+    height: 1200px;
+}
+
+.projets_intro{
+    width: 60%;
+}
+
+.projets_intro .fa-circle{
+    right: 48%;
+    bottom: 37%;
+}
+
+.work .fa-caret-down, .creative .fa-caret-down, .corporate .fa-caret-down, .portfolio .fa-caret-down{
+    top: 44px;
+    right: 36px;
+    font-size: 32px;
+}
+
+#projets nav ul li{
+    font-size: 12px;
+}
+
+.projet, .projet img{
+    width: 280px; 
+    height: 178px;
+    margin-bottom: 20px;
+}
+.block_overlay h4{
+    top: -5px;
+    font-size: 2vw;
+}
+
+ .block_overlay p{
+    font-size: 1.4vw;
+}
+/*Partie Animation
+======================*/
+#works:target ~ .projets_ensemble{
+    animation: none;
+}
+#creative:target ~ .projets_ensemble .projet1, #creative:target ~ .projets_ensemble .projet3{
+    -webkit-animation: anim_gauche forwards 4s;
+    animation: anim_gauche forwards 4s;
+}
+
+#creative:target ~ .projets_ensemble .projet2{
+    -wbekit-animation: anim_droite forwards 4s;
+    animation: anim_droite forwards 4s;
+    z-index: 19;
+}
+
+#creative:target ~ .projets_ensemble .projet4, #creative:target ~ .projets_ensemble .projet6{
+    -webkit-animation: anim_droite forwards 4s;
+    animation: anim_droite forwards 4s;
+}
+
+#creative:target ~ .projets_ensemble .projet5, #creative:target ~ .projets_ensemble .projet7{
+    -webkit-animation: anim_gauche forwards 4s;
+    animation: anim_gauche forwards 4s;
+}
+
+#creative:target ~ .projets_ensemble .projet8{
+    -webkit-animation: anim_droite forwards 4s;
+    animation: anim_droite forwards 4s;
+}
+
+#corporate:target ~ .projets_ensemble .projet1, #corporate:target ~ .projets_ensemble .projet3{
+    -webkit-animation: anim_bas forwards 4s;
+    animation: anim_bas forwards 4s;
+    z-index: 19;
+}
+
+#corporate:target ~ .projets_ensemble .projet2, #corporate:target ~ .projets_ensemble .projet4{
+    -webkit-animation: anim_bas forwards 4s;
+    animation: anim_bas forwards 4s;
+    z-index: 21;
+}
+
+#corporate:target ~ .projets_ensemble .projet5, #corporate:target ~ .projets_ensemble .projet7{
+    -webkit-animation: anim_haut_plus forwards 4s;
+    animation: anim_haut_plus forwards 4s;
+    z-index: 21;
+}
+
+#corporate:target ~ .projets_ensemble .projet6{
+    -webkit-animation: anim_haut forwards 4s;
+    animation: anim_haut forwards 4s;
+    z-index: 19;
+}
+
+#corporate:target ~ .projets_ensemble .projet8{
+    -webkit-animation: anim_haut_plus forwards 4s;
+    animation: anim_haut_plus forwards 4s;
+    z-index: 19;
+}
+
+#portfolio:target ~ .projets_ensemble .projet1, #portfolio:target ~ .projets_ensemble .projet3{
+    -webkit-animation: anim_gauche forwards 4s;
+    animation: anim_gauche forwards 4s;
+    z-index: 21;
+}
+
+#portfolio:target ~ .projets_ensemble .projet2, #portfolio:target ~ .projets_ensemble .projet4{
+    -webkit-animation: anim_droite forwards 4s;
+    animation: anim_droite forwards 4s;
+}
+
+#portfolio:target ~ .projets_ensemble .projet5, #portfolio:target ~ .projets_ensemble .projet7{
+    -webkit-animation: anim_gauche forwards 4s;
+    animation: anim_gauche forwards 4s;
+    z-index: 21;
+}
+
+#portfolio:target ~ .projets_ensemble .projet6, #portfolio:target ~ .projets_ensemble .projet8{
+    -webkit-animation: anim_droite forwards 4s;
+    animation: anim_droite forwards 4s;
+}
+
+/*Fin Animation
+=================*/
+
+/*Fin Projets
+====================*/
+
+/*Debut Formulaire
+=====================*/
+
+.formulaire_form{
+    width: auto;
+}
+/*Fin Formulaire
+===================*/
+
+/*Footer
+====================*/
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+}
+/*Fin Footer
+=====================*/

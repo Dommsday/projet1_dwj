@@ -1,0 +1,440 @@
+input[type="button"], input[type="submit"]{
+    padding: 12px;
+    font-size: 18px;
+}
+
+
+/*HEADER
+===========*/
+header{
+    height: 70px;
+}
+
+header .container{ /*Il contient le logo et le menu de navigation*/
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 5px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.logo img{
+    height: 20px;
+    width: 90px;
+}
+
+.header_nav{
+    width: 100%;
+    margin-right: 0px;
+    justify-content: center;
+}
+
+.header_nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_nav ul li{
+    font-size: 14px;
+    padding: 12px;
+}
+
+.header_nav ul li:hover{
+    border-top: inherit;
+}
+
+.header_nav ul .accueil-active{
+    border-top: inherit;
+}
+
+#banniere{ /*Il contient le slider et le texte à l'intérieur*/
+    height: 130px;
+    top: 13%;
+}
+
+.premier{/*Affichage uniquement de la 1er image du slider*/
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+.second{/*Disparition de la 2eme image du slider*/
+    display: none;
+}
+
+.chevron-left, .chevron-left-2, .chevron-right, .chevron-righ-2{
+    display: none;
+}
+
+.chevron-left .fa-chevron-left, .chevron-right .fa-chevron-right{ /*flèche*/
+     display: none;
+}
+
+#slider_image_bg1:target ~ .ban, #slider_image_bg2:target ~ .ban, #slider_image_bg3:target ~ .ban, #slider_image_bg4:target ~ .ban{
+    transform: none;
+}
+
+.ban_text{ /*Il contient tout le texte*/
+    width: 60%;
+    height: 85%;
+    top: 10%;
+    left: 5%;
+}
+
+.ban_text h1{
+    font-size: 0.7em;
+}
+
+.ban_text p{
+    margin-top: -9px;
+    font-size: 0.6em;
+}
+
+.timeline_fond, .timeline{
+    display: none;
+}
+
+/*FIN HEADER*/
+
+/*SERVICE*/
+
+#service{
+    padding-top: 50px;
+    height: 1010px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.service_intro{/*bloc de l'intro*/
+    width: auto;
+    height: 12%;
+    margin-bottom: 100px;
+}
+
+.service_intro h2{
+    font-size: 17px;
+}
+
+.service_intro .fa-circle{
+    font-size: 8px;
+    border: 3px solid #ffffff;
+    bottom: 51%;
+}
+
+.service_intro p{
+    margin-top: 12px;
+    font-size: 0.7em;
+    width: 90%;
+}
+
+.service_container{/*bloc contenant la partie gauche et droite*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+    height: 400px;
+}
+
+.image_service{
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+.image_service img{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: auto;
+}
+
+.categorie{/*partie droite*/
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 45%;
+    width: 100%;
+}
+
+.ensemble_service{/*bloc pour chaque service*/
+    position: relative;
+    align-items: center;
+    width: auto;
+    display: flex;
+    height: 200px;
+    flex-direction: column; 
+}
+
+.ensemble_service:first-child{
+    margin-top: 20px;
+}
+
+.img_ensemble_service{
+    width: 100%;
+    height: 60px;
+}
+
+.fa-chart-line, .fa-cubes, .fa-chart-pie{
+    margin-top: 3%;
+    color: #5cadd3;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 50%;
+    border: 2px solid #dedede;  
+}
+
+.categorie .fa-circle{
+    position: absolute;
+    right: 42%;
+    top: 38%;
+    font-size: 8px;
+    border: 3px #ffffff solid;
+}
+
+.UX, .UI, .SEO{/*bloc de texte des services*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    left: 0px;
+    bottom: 18%;
+}
+
+.ensemble_service h3{
+    font-size: 18px;
+    margin-right: 0px;
+    margin-bottom: 0px;  
+}
+
+.ensemble_service p{
+    margin-top: 6%;
+    font-size: 0.7em;
+    width: 100%;
+    line-height: 16px;
+}
+
+/*FIN SERVICE*/
+
+/*PROJETS*/
+#projets{
+    padding-top: 70px;
+    height: 2000px;
+    background-color: #f5f5f5;
+}
+
+.projets_intro{
+    position: relative;
+    width: 80%;
+    height: 7%;
+    align-items: center;
+}
+
+.projets_intro h2{
+    font-size: 17px;
+}
+
+.projets_intro .fa-circle{
+    font-size: 8px;
+    border: 3px solid #ffffff;
+    right: 47%;
+    bottom: 56%;
+}
+
+.projets_intro p{
+    font-size: 0.7em;
+}
+
+#projets nav{
+    height: 40px;
+    width: 260px;
+    margin-left: 10px;
+}
+
+#projets nav ul li{
+    text-align: center;
+    width: 50px;
+    padding: 8px;
+    font-size: 0.7em;
+}
+
+.work .fa-caret-down{
+    font-size: 25px;
+    top: 22px;
+    right: 23px;
+}
+
+.creative .fa-caret-down, .corporate .fa-caret-down, .portfolio .fa-caret-down{
+    font-size: 25px;
+    top: 22px;
+    right: 23px;
+}
+
+.projets_ensemble{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1900px;
+}
+
+.projet, .projet img{
+    width: 220px; 
+    height: 150px;
+    margin-bottom: 60px;
+}
+ 
+.block_overlay{
+    display: block;
+    width: 220px;
+    height: 60px;
+}
+
+.icone{
+    right: 20px;
+    bottom: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.icone .fa-eye{
+    font-size: 14px;
+    margin: 4px 0px 0px 4px;
+} 
+
+.block_overlay h4{
+    top: 16%;
+    font-size: 2.8vw;
+}
+
+ .block_overlay p{
+     bottom: 10%;
+     font-size: 2.4vw;
+}
+
+
+/*Partie Animation
+======================*/
+#creative:target ~ .projets_ensemble .projet1, #creative:target ~ .projets_ensemble .projet3{
+    -webkit-animation: none;
+    animation: none;
+}
+
+#creative:target ~ .projets_ensemble .projet2, #creative:target ~ .projets_ensemble .projet4{
+    -webkit-animation: none;
+    animation: none;
+    opacity: 0.2;
+}
+
+#creative:target ~ .projets_ensemble .projet5, #creative:target ~ .projets_ensemble .projet7{
+    -webkit-animation: none;
+    animation: none;
+    opacity: 0.2;
+}
+
+#creative:target ~ .projets_ensemble .projet6, #creative:target ~ .projets_ensemble .projet8{
+    -webkit-animation: none;
+    animation: none;
+}
+
+#corporate:target ~ .projets_ensemble .projet1, #corporate:target ~ .projets_ensemble .projet3{
+    -webkit-animation: none;
+    animation: none;
+    opacity: 0.2;
+}
+
+#corporate:target ~ .projets_ensemble .projet2, #corporate:target ~ .projets_ensemble .projet4, #corporate:target ~ .projets_ensemble .projet5, #corporate:target ~ .projets_ensemble .projet7{
+    -webkit-animation: none;
+    animation: none;
+}
+
+
+#corporate:target ~ .projets_ensemble .projet6, #corporate:target ~ .projets_ensemble .projet8{
+    -webkit-animation: none;
+    animation: none;
+    opacity: 0.2;
+}
+
+#portfolio:target ~ .projets_ensemble .projet1, #portfolio:target ~ .projets_ensemble .projet4, #portfolio:target ~ .projets_ensemble .projet5, #portfolio:target ~ .projets_ensemble .projet7{
+    -webkit-animation: none;
+    animation: none;
+}
+
+#portfolio:target ~ .projets_ensemble .projet2, #portfolio:target ~ .projets_ensemble .projet3{
+    -webkit-animation: none;
+    animation: none;
+    opacity: 0.2;
+}
+
+
+#portfolio:target ~ .projets_ensemble .projet6, #portfolio:target ~ .projets_ensemble .projet8{
+    -webkit-animation: none;
+    animation: none;
+    opacity: 0.2;
+}
+
+/*Fin Animation
+=================*/
+
+/*FIN PROJETS
+====================*/
+
+/*DEBUT FORMULAIRE
+======================*/
+#formulaire{
+    padding-top: 70px;
+    width: auto;
+}
+.google_map{
+    display: none;
+}
+.overlay{
+    top: 0%;
+}
+
+.formulaire_form{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    width: 260px;
+}
+
+/*FIN FORMULAIRE
+======================*/
+
+/*Footer
+==========================*/
+footer{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+.footer_logo img{
+    height: 20px;
+    width: 90px;
+}
+
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    font-size: 0.6em;
+}
+
+/*Fin Footer
+===========================*/

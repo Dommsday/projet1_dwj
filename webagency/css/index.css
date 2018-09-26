@@ -1,0 +1,1394 @@
+/*Animation de la partie Projet
+==================================*/
+@-webkit-keyframes anim_gauche{
+    0%{
+        transform: translateX(0%);
+    }
+    
+    100%{
+        transform: translateX(381px);
+    }
+}
+
+@keyframes anim_gauche{
+    0%{
+        transform: translateX(0%);
+    }
+    
+    100%{
+        transform: translateX(381px);
+    }
+}
+
+@media all and (max-width: 1680px){
+    
+    @-webkit-keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(333px);
+        }
+    }
+    
+    @keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(333px);
+        }
+    }   
+}
+
+@media all and (max-width: 1600px){
+    
+    @-webkit-keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(317px);
+        }
+    }
+    
+    @keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(317px);
+        }
+    }   
+}
+
+
+@media all and (max-width: 1440px){
+    
+    @-webkit-keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(285px);
+        }
+    }
+    
+    @keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(285px);
+        }
+    }
+}
+
+@media all and (max-width: 1366px){
+    
+    @-webkit-keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(269px);
+        }
+    }
+    
+    @keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(269px);
+        }
+    }
+}
+
+@media all and (max-width: 1280px){
+    
+    @-webkit-keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(252px);
+        }
+    }
+    
+    @keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(252px);
+        }
+    }
+}
+
+@-webkit-keyframes anim_droite{
+    0%{
+        transform: translateX(0px);
+    }
+    
+    100%{
+        transform: translateX(-380px);
+    }
+}
+
+@keyframes anim_droite{
+    0%{
+        transform: translateX(0px);
+    }
+    
+    100%{
+        transform: translateX(-380px);
+    }
+}
+
+@media all and (max-width: 1680px){
+    
+    @-webkit-keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(-333px);
+        }
+    }
+    
+    @keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(-333px);
+        }
+    }
+}
+
+@media all and (max-width: 1600px){
+    
+    @-webkit-keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(-317px);
+        }
+    }
+    
+    @keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(-317px);
+        }
+    }
+}
+
+@media all and (max-width: 1440px){
+    
+    @-webkit-keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(-285px);
+        }
+    }
+
+    @keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(-285px);
+        }
+    }
+}
+
+@media all and (max-width: 1366px){
+    
+    @-webkit-keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(-269px);
+        }
+    }
+    
+    @keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(-269px);
+        }
+    }
+}
+
+@media all and (max-width: 1280px){
+    
+    @-webkit-keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(-252px);
+        }
+    }
+    
+    @keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+        }
+
+        100%{
+            transform: translateX(-252px);
+        }
+    }
+}
+
+@-webkit-keyframes anim_haut{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(-148px);
+    }
+}
+
+@keyframes anim_haut{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(-148px);
+    }
+}
+
+@media all and (max-width: 1680px){
+    
+    @-webkit-keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(-131px);
+        }
+    }
+    
+    @keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(-131px);
+        }
+    }
+}
+
+@media all and (max-width: 1600px){
+    
+    @-webkit-keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(-126px);
+        }
+    }
+    
+    @keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(-126px);
+        }
+    }
+}
+
+@media all and (max-width: 1440px){
+    
+    @-webkit-keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(-116px);
+        }
+    }
+    
+    @keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(-116px);
+        }
+    }
+}
+
+@media all and (max-width: 1366px){
+    
+    @-webkit-keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(-111px);
+        }
+    }
+    
+    @keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(-111px);
+        }
+    }
+}
+
+@media all and (max-width: 1280px){
+    
+    @-webkit-keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(-106px);
+        }
+    }
+    
+    @keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(-106px);
+        }
+    }
+}
+
+@-webkit-keyframes anim_bas{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(144px);
+    }
+}
+
+@keyframes anim_bas{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(144px);
+    }
+}
+
+@media all and (max-width: 1680px){
+    
+    @-webkit-keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(131px);
+        }
+    }
+    
+    @keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(131px);
+        }
+    }
+}
+
+@media all and (max-width: 1680px){
+    
+    @-webkit-keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(126px);
+        }
+    }
+    
+    @keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(126px);
+        }
+    }
+}
+
+@media all and (max-width: 1440px){
+    
+    @-webkit-keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(116px);
+        }
+    }
+    
+    @keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(116px);
+        }
+    }
+}
+
+@media all and (max-width: 1366px){
+    
+    @-webkit-keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(111px);
+        }
+    }
+    
+    @keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(111px);
+        }
+    }
+}
+
+@media all and (max-width: 1280px){
+    
+    @-webkit-keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(106px);
+        }
+    }
+    
+    @keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+        }
+
+        100%{
+            transform: translateY(106px);
+        }
+    }
+}
+
+/*CSS général
+=========================*/
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: "Roboto-Black";
+    src: url("fonts/Roboto-Black.ttf");
+}
+
+@font-face{
+    font-family: "Roboto-Medium";
+    src: url("fonts/Roboto-Medium.ttf");
+}
+
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+.ancre{/*Disparition de l'ancrage*/
+    display: none;
+}
+
+.projet1, .projet2, .projet3, .projet4, .projet5, .projet6, .projet7, .projet8{
+    z-index: 20;
+}
+
+h1, h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Roboto-Black";
+}
+
+h3{
+    font-size: 18px;
+    font-family: "Roboto-Medium";
+}
+
+h4{
+    font-family: "Roboto-Regular";
+    font-size: 15px;
+}
+
+p, .button{
+    font-family: "Roboto-Regular";
+}
+
+.centre{
+    text-align: center;
+}
+
+.separateur{
+    width: 20%;
+    margin: auto;
+    background-color: #aaacaf;
+    height: 2px;
+    opacity: 0.3;
+}
+
+.fa-circle{
+    color: #468cad;
+    border: 6px solid #ffffff;
+    background-color: #468cad;
+    font-size: 17px;
+    border-radius: 100%;
+}
+
+label, textarea{
+    color: #717579;
+    font-family: "Roboto-Medium";
+}
+
+placeholder{
+    color: #717579;
+    font-family: "Roboto-Regular";
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+input[type="button"], input[type="submit"]{
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #5cadd3;
+    color: #ffffff;
+    border-bottom: 5px solid #4494bb;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+
+/*Header
+=========================================*/
+header{
+    width: 100%;
+    height: 100px;
+}
+
+header .container{ /*Il contient le logo et le menu de navigation*/
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    z-index: 24;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 1% 0% 0% 15%;
+}
+
+.header_nav{
+    width: 37%;
+}
+
+.header_nav ul{
+    height: 100%;
+    display: flex;
+    margin-top: 0px;
+}
+
+.header_nav ul li{
+    list-style-type: none;
+    font-family: "Roboto-Medium";
+    color: #87898d;
+    margin-right: 20px;
+    padding: 40px 15px 0px 15px;
+}
+
+.header_nav ul li a{
+    color: #87898d;
+}
+
+.header_nav ul .accueil-active a{
+    color: #000000;
+}
+
+.header_nav ul li:hover{
+    border-top: 2px solid #5cadd3;
+}
+
+.header_nav ul .accueil-active{
+    border-top: 2px solid #5cadd3;
+}
+
+/*Il contient le slider et le texte à l'intérieur
+=========================*/
+#banniere{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*Il contient le slider
+=========================*/
+.ban{
+    display: flex;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    transition-duration: 2s;
+}
+
+.ban img{
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.chevron-left, .chevron-right, .chevron-left-2, .chevron-right-2{
+    position: absolute;
+    display: block;
+    background-color: #000000;
+    opacity: 0.6;
+    bottom: 47%;
+    width: 30px;
+    height: 60px;
+}
+
+.chevron-left, .chevron-left-2{
+    border-radius: 0px 50px 50px 0px;
+}
+
+.chevron-right, .chevron-right-2{
+    right: 0px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+/*Au départ disparition de la 1er flèche de gauche et de la 2eme flèche de droite*/
+.chevron-left, .chevron-right-2{
+    display: none;
+}
+
+
+.chevron-left .fa-chevron-left, .chevron-left-2 .fa-chevron-left{ /*flèche*/
+    margin-left: 7px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.chevron-right .fa-chevron-right, .chevron-right-2 .fa-chevron-right{/*flèche*/
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+/*Animation slider
+====================*/
+
+#slider_image_bg3:target ~ .ban, #slider_image_bg2:target ~ .ban{/*flèche gauche numéro 2 et première flèche droite*/
+    -webkit-transform: translateX(-1903px);
+    transform: translateX(-1903px);
+    
+}
+
+#slider_image_bg3:target ~ .chevron-left-2, .chevron-right{/*disparition de la 2eme flèche de gauche*/
+    display: none;
+}
+
+#slider_image_bg3:target ~ .chevron-left, .chevron-right-2{/*apparation de la 2eme flèche de droite*/
+    display: block;
+}
+/*fin 2eme flèche de gauche*/
+
+#slider_image_bg2:target ~ .chevron-left-2, .chevron-right{/*disparition de la 1er flèche de droite*/
+    display: none;
+}
+
+#slider_image_bg2:target ~ .chevron-right-2, .chevron-left{/*apparation de la 2eme flèche de droite*/
+    display: block;
+}
+/*Fin flèche de droite*/
+
+
+#slider_image_bg4:target ~ .ban, #slider_image_bg1:target ~ .ban{ /*flèche droite numéro 2 et première flèche gauche*/
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+#slider_image_bg4:target ~ .chevron-left, .chevron-right-2{/*disparition de la 1er flèche de gauche*/
+    display: none;
+}
+
+#slider_image_bg4:target ~ .chevron-left-2, .chevron-right{/*apparation de la 2eme flèche de gauche*/
+    display: block;
+}
+
+/*Fin 2eme flèche de droite*/
+
+
+#slider_image_bg1:target ~ .chevron-left, .chevron-right-2{/*disparition de la 2eme flèche de droite*/
+    display: none;
+}
+
+#slider_image_bg1:target ~ .chevron-left-2, .chevron-right{/*apparation de la 1er flèche de droite*/
+    display: block;
+}
+
+/*Fin Animation Slider
+=====================================*/
+
+@media all and (max-width: 1680px){
+    #slider_image_bg2:target ~ .ban, #slider_image_bg3:target ~ .ban{
+        -webkit-transform: translateX(-1664px);
+        transform: translateX(-1664px);
+    }  
+}
+
+@media all and (max-width: 1600px){
+    #slider_image_bg2:target ~ .ban, #slider_image_bg3:target ~ .ban{
+        -webkit-transform: translateX(-1583px);
+        transform: translateX(-1583px);
+    }
+}
+
+@media all and (max-width: 1440px){
+    #slider_image_bg2:target ~ .ban, #slider_image_bg3:target ~ .ban{
+        -webkit-transform: translateX(-1423px);
+        transform: translateX(-1423px);
+    }
+}
+
+@media all and (max-width: 1400px){
+    #slider_image_bg2:target ~ .ban, #slider_image_bg3:target ~ .ban{
+        -webkit-transform: translateX(-1383px);
+        transform: translateX(-1383px);
+    }
+}
+
+@media all and (max-width: 1366px){
+    #slider_image_bg2:target ~ .ban, #slider_image_bg3:target ~ .ban{
+        -webkit-transform: translateX(-1349px);
+        transform: translateX(-1349px);
+    }
+}
+
+@media all and (max-width: 1360px){
+    #slider_image_bg2:target ~ .ban, #slider_image_bg3:target ~ .ban{
+        -webkit-transform: translateX(-1343px);
+        transform: translateX(-1343px);
+    }
+}
+
+@media all and (max-width: 1280px){
+    #slider_image_bg2:target ~ .ban, #slider_image_bg3:target ~ .ban{
+        -webkit-transform: translateX(-1263px);
+        transform: translateX(-1263px);
+    }
+}
+
+/*Il contient tout le texte
+=========================*/
+.ban_text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    bottom: 34%;
+    left: 12%;
+}
+
+.ban_text h1{
+    color: #ffffff;
+}
+
+.ban_text .bleu{/*Mot: WebAgency*/
+    color: #5cadd3;
+}
+
+.ban_text p{
+    font-size: 16px;
+    margin-top: -20px;
+    color: #ffffff;
+}
+
+.ban_text .button{
+    width: 120px;
+}
+/*Ligne de progression
+========================*/
+.all_timeline{
+    position: relative;
+    bottom: 0%;
+}
+
+.timeline_fond{
+    position: absolute;
+    width: 100%;
+    min-width: 100%;
+    height: 6px;
+    bottom: 0px;
+    background-color: #000000;
+    opacity: 0.2;
+}
+
+.timeline{
+    position: absolute;
+    width: 10%;
+    height: 6px;
+    bottom: 0px;
+    background-color: #5cadd3;
+}
+
+/*Fin Header
+=========================*/
+
+/*Service
+=========================*/
+#service{
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/*bloc de l'intro
+=========================*/
+.service_intro{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.service_intro p{
+    font-size: 16px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.service_intro .fa-circle{
+    position: absolute;
+    right: 48%;
+    bottom: 80px;
+}
+
+
+
+/*bloc contenant la partie gauche et droite
+=========================*/
+.service_container{
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    padding-bottom: 150px;
+    justify-content: space-between;
+}
+
+.image_service{
+    position: relative;
+    width: 50%;
+}
+
+.image_service img{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+/*partie droite
+=========================*/
+.categorie{
+    position: relative;
+    width: 50%;
+}
+
+/*bloc pour chaque service
+=========================*/
+
+.ensemble_service{
+    position: relative;
+    display: flex;
+    height: 150px;
+}
+
+.ensemble_service:first-child{
+    margin-top: 120px;
+}
+
+.img_ensemble_service{
+    position: absolute;
+    width: 70px;
+}
+
+/*icônes
+=========================*/
+.fa-chart-line, .fa-cubes, .fa-chart-pie{
+    position: relative;
+    margin-top: 45%;
+    color: #5cadd3;
+    font-size: 30px;
+    padding: 12px;
+    border-radius: 50%;
+    border: 2px solid #dedede;  
+}
+
+/*cercle bleu sur les icônes
+=========================*/
+.img_ensemble_service .fa-circle{
+    position: absolute;
+    top: 58%;
+    right: 2%;
+    font-size: 12px;
+    border: 4px #ffffff solid;
+}
+
+.categorie h3{
+    font-size: 22px;
+}
+
+.categorie p{
+    position: absolute;
+    font-size: 16px;
+    line-height: 20px;
+    top: 35%;
+    width: 90%;
+}
+
+/*bloc de texte des services
+=========================*/
+.UX, .UI, .SEO{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    right: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Fin Services
+=========================*/
+
+/*Projets
+=========================*/
+#projets{
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.projets_intro{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.projets_intro .fa-circle{
+    position: absolute;
+    right: 48%;
+    bottom: 32%;
+}
+
+.projets_intro p{
+    font-size: 16px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#projets nav{
+    position: relative;
+    width: 100%;
+}
+#projets nav ul {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#projets nav ul li{
+    position: relative;
+    font-family: "Roboto-Medium";
+    padding: 20px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.creative, .corporate, .portfolio{
+    background-color: #e5e5e5;
+}
+
+.work .fa-caret-down{/*La petite flèche*/
+    position: absolute;
+    color: #468cad;
+    font-size: 35px;
+    top: 51px;
+    right: 42px;
+    display: block;
+}
+
+.creative .fa-caret-down, .corporate .fa-caret-down, .portfolio .fa-caret-down{/*La petite flèche*/
+    position: absolute;
+    color: #468cad;
+    font-size: 35px;
+    top: 51px;
+    right: 42px;
+    display: none;
+}
+
+.work{
+    border-radius: 6px 0px 0px 6px;
+    border-bottom: solid 4px #468cad;
+    background-color: #5cadd3;
+}
+
+.work a {
+    color: #ffffff;
+}
+
+.creative a, .corporate a, .portfolio a{
+    color: #87898d;
+}
+
+.portfolio{
+    border-radius: 0px 6px 6px 0px;
+}
+
+.projets_ensemble{
+    margin-top: 55px;
+    margin-bottom: 100px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projet{
+    position: relative;
+    background-color: #e5e5e5;
+    margin-bottom: 50px;
+    width: 23.5%;
+}
+
+.projet img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Partie Animation
+======================*/
+#creative:target ~ .nav .work, #corporate:target ~ .nav .work, #portfolio:target ~ .nav .work{
+    background-color: #e5e5e5;
+    border-bottom: none;
+}
+
+#creative:target ~ .nav .work a, #corporate:target ~ .nav .work a, #portfolio:target ~ .nav .work a{
+    color: #87898d;;
+}
+
+#creative:target ~ .nav .work .fa-caret-down, #corporate:target ~ .nav .work .fa-caret-down, #portfolio:target ~ .nav .work .fa-caret-down{
+    display: none;
+}
+
+#works:target ~ .nav ul .work, #creative:target ~ .nav ul .creative, #corporate:target ~ .nav ul .corporate, #portfolio:target ~ .nav ul .portfolio{/*Changement de couleur de fond lors du clique */
+    border-bottom: solid 4px #468cad;
+    background-color: #5cadd3;
+}
+
+#works:target ~ .nav ul .work a, #creative:target ~ .nav ul .creative a, #corporate:target ~ .nav ul .corporate a, #portfolio:target ~ .nav ul .portfolio a{/*Changement de couleur de fond lors du clique */
+    color: #ffffff;
+}
+
+#works:target ~ .nav .work .fa-caret-down, #creative:target ~ .nav .creative .fa-caret-down, #corporate:target ~ .nav .corporate .fa-caret-down, #portfolio:target ~ .nav .portfolio .fa-caret-down{/*Apparition de la flèche lors du clique*/
+    display: block;
+}
+
+#works:target ~ .projets_ensemble{
+    -webkit-animation: none;
+    animation: none;
+}
+
+#creative:target ~ .projets_ensemble .projet1, #creative:target ~ .projets_ensemble .projet5{
+    -webkit-animation: anim_gauche forwards 4s;
+    animation: anim_gauche forwards 4s;
+}
+
+#creative:target ~ .projets_ensemble .projet4, #portfolio:target ~ .projets_ensemble .projet8{
+    -webkit-animation: anim_droite forwards 4s;
+    animation: anim_droite forwards 4s;
+    z-index: 19;
+}
+
+#creative:target ~ .projets_ensemble .projet8, #portfolio:target ~ .projets_ensemble .projet4{
+    -webkit-animation: anim_droite forwards 4s;
+    animation: anim_droite forwards 4s;
+}
+
+#corporate:target ~ .projets_ensemble .projet1, #corporate:target ~ .projets_ensemble .projet3{
+    -webkit-animation: anim_bas forwards 4s;
+    animation: anim_bas forwards 4s;
+    z-index: 19;
+}
+
+#corporate:target ~ .projets_ensemble .projet2, #corporate:target ~ .projets_ensemble .projet4{
+    -webkit-animation: anim_bas forwards 4s;
+    animation: anim_bas forwards 4s;
+    z-index: 21;
+}
+
+#corporate:target ~ .projets_ensemble .projet5, #corporate:target ~ .projets_ensemble .projet7{
+    -webkit-animation: anim_haut forwards 4s;
+    animation: anim_haut forwards 4s;
+    z-index: 21;
+}
+
+#corporate:target ~ .projets_ensemble .projet6, #corporate:target ~ .projets_ensemble .projet8{
+    -webkit-animation: anim_haut forwards 4s;
+    animation: anim_haut forwards 4s;
+    z-index: 19;
+}
+
+#portfolio:target ~ .projets_ensemble .projet1, #portfolio:target ~ .projets_ensemble .projet5{
+    -webkit-animation: anim_gauche forwards 4s;
+    animation: anim_gauche forwards 4s;
+    z-index: 21;
+}
+
+/*Fin Animation
+=================*/
+
+/*Block avec l'overlay et le texte
+===================================*/
+.block_overlay{
+    position: absolute;
+    color: #ffffff;
+    display: none;
+    width: 100%;
+    height: 36%;
+    bottom: 0%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.fa-eye{
+    position: absolute;
+    right: 6%;
+    top: -22%;
+    color: #ffffff;
+    padding: 10px;
+    border:2px solid #ffffff;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: #468cad;
+}
+
+.block_overlay h4, .block_overlay p{
+    position: absolute;
+    color:#ffffff;
+    padding-left: 15px;
+}
+
+.block_overlay h4{
+    position: absolute;
+    top: 0px;
+    font-size: 0.9vw;
+}
+
+.block_overlay p{
+    position: absolute;
+    font-size: 0.8vw;
+    bottom: 0px;
+}
+
+.projet:hover .block_overlay{
+    display: block;
+}
+
+/*Fin Projets
+=========================*/
+
+/*Formulaire
+=========================*/
+
+#formulaire{
+    position: relative;
+    width: 100%;
+    height: 750px;
+}
+
+.google_map{
+    position: absolute;
+    width: 100%;
+    min-width: 100%;
+    height: 750px;
+}
+
+.google_map iframe{
+    width: 100%;
+    min-width: 100%;
+    height: 750px;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(92,173,211,0.3);
+    width: 100%;
+    max-width: 100%;
+    height: 750px;
+    pointer-events: none;
+}
+
+.formulaire_form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    background-color: rgba(255,255,255,0.6);
+    right: 10%;
+    bottom: 6%;
+    padding: 0px 20px 0px 20px;
+}
+
+.entreprise{
+    color: #717579;
+    font-family: "Roboto-Black";
+}
+
+.formulaire_form h3{
+    font-family: "Roboto-Black";
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Roboto-Medium";
+}
+
+.tel{
+    border-bottom: 1px dotted black;
+}
+
+input, textarea{
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"]{
+    padding: 5px;
+}
+
+input[type="submit"]{
+    width: 145px;
+}
+/*Fin Formulaire
+=========================*/
+
+/*Footer
+==========================*/
+footer{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_logo img{
+    height: 40px;
+    width: 180px;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Roboto-Medium";
+}
+
+/*Fin Footer
+===========================*/

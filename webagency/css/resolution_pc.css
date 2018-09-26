@@ -1,0 +1,382 @@
+@-webkit-keyframes anim_gauche{
+    0%{
+        transform: translateX(0px);
+     }
+
+    100%{
+        transform: translateX(232px);
+    }
+}
+
+@keyframes anim_gauche{
+    0%{
+        transform: translateX(0px);
+     }
+
+    100%{
+        transform: translateX(232px);
+    }
+}
+
+@media all and (max-width: 1152px){
+    
+    @-webkit-keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+         }
+
+        100%{
+            transform: translateX(226px);
+        }
+    }
+    
+    @keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+         }
+
+        100%{
+            transform: translateX(226px);
+        }
+    }  
+}
+
+@media all and (max-width: 1024px){
+    
+    @-webkit-keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+         }
+
+        100%{
+            transform: translateX(201px);
+        }
+    }
+    
+    @keyframes anim_gauche{
+        0%{
+            transform: translateX(0px);
+         }
+
+        100%{
+            transform: translateX(201px);
+        }
+    }  
+}
+
+@-webkit-keyframes anim_droite{
+    0%{
+        transform: translateX(0px);
+     }
+
+    100%{
+        transform: translateX(-232px);
+    }
+}
+
+@keyframes anim_droite{
+    0%{
+        transform: translateX(0px);
+     }
+
+    100%{
+        transform: translateX(-232px);
+    }
+}
+
+@media all and (max-width: 1152px){
+    
+    @-webkit-keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+         }
+
+        100%{
+            transform: translateX(-226px);
+        }
+    }
+    
+    @keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+         }
+
+        100%{
+            transform: translateX(-226px);
+        }
+    }  
+}
+
+@media all and (max-width: 1024px){
+    
+    @-webkit-keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+         }
+
+        100%{
+            transform: translateX(-200px);
+        }
+    }
+    
+    @keyframes anim_droite{
+        0%{
+            transform: translateX(0px);
+         }
+
+        100%{
+            transform: translateX(-200px);
+        }
+    }  
+}
+
+@-webkit-keyframes anim_haut{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes anim_haut{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(-100px);
+    }
+}
+
+@media all and (max-width: 1156px){
+    
+    @-webkit-keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+         }
+
+        100%{
+            transform: translateY(-98px);
+        }
+    } 
+    
+    @keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+         }
+
+        100%{
+            transform: translateY(-98px);
+        }
+    }  
+}
+
+@media all and (max-width: 1024px){
+    
+    @-webkit-keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+         }
+
+        100%{
+            transform: translateY(-90px);
+        }
+    } 
+    
+    @keyframes anim_haut{
+        0%{
+            transform: translateY(0px);
+         }
+
+        100%{
+            transform: translateY(-90px);
+        }
+    }  
+}
+
+@-webkit-keyframes anim_bas{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(99px);
+    }
+}
+
+@keyframes anim_bas{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(99px);
+    }
+}
+
+@media all and (max-width: 1156px){
+    
+    @-webkit-keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+         }
+
+        100%{
+            transform: translateY(98px);
+        }
+    }
+    
+    @keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+         }
+
+        100%{
+            transform: translateY(98px);
+        }
+    }  
+}
+
+@media all and (max-width: 1024px){
+    
+    @-webkit-keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+         }
+
+        100%{
+            transform: translateY(90px);
+        }
+    }
+    
+    @keyframes anim_bas{
+        0%{
+            transform: translateY(0px);
+         }
+
+        100%{
+            transform: translateY(90px);
+        }
+    }  
+}
+    
+/*HEADER*/
+
+.logo{
+    margin: 2% 0% 0% 15%;
+}
+
+.header_nav{
+    margin-right: 40px;
+}
+
+
+.header_nav ul li{
+    margin-right: 0px;
+}
+
+#banniere{ /*Il contient le slider et le texte à l'intérieur*/
+    top: 15%;
+}
+
+@media all and (orientation: portrait){/*Quand les tablettes sont en format portrait*/
+    #banniere{
+        top: 5%;
+        height: 35%;
+    }
+}
+
+
+#slider_image_bg1:target ~ .ban{
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+#slider_image_bg2:target ~ .ban{
+    -webkit-transform: translateX(-407px);
+    transform: translateX(-407px);
+}
+
+@media all and (max-width: 1176px){
+    #slider_image_bg2:target ~ .ban{
+        -webkit-transform: translateX(-1159px);
+        transform: translateX(-1159px);
+    }
+}
+
+@media all and (max-width: 1024px){
+    #slider_image_bg2:target ~ .ban, #slider_image_bg3:target ~ .ban{
+        -webkit-transform: translateX(-1008px);
+        transform: translateX(-1008px);
+    }
+}
+
+.ban_text{
+    bottom: 21%;
+}
+
+.ban_text h1{
+    font-size: 30px;
+}
+
+.chevron-left, .chevron-right, .chevron-left-2, .chevron-right-2{
+    top: 35%;
+}
+
+/*FIN HEADER*/
+
+/*SERVICE*/
+
+.service_intro{
+    width: 55%;
+}
+
+.service_intro .fa-circle{
+    bottom: 38%;
+}
+
+.img_ensemble_service .fa-circle{
+    right: 3%;
+}
+
+.UX, .UI, .SEO{
+    right: 0%;
+}
+
+.categorie h3{
+    font-size: 18px;
+}
+
+.categorie p{
+    top: 32%;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/*FIN SERVICE*/
+
+/*PROJETS*/
+
+#projets nav ul li{
+    font-size: 14px;
+}
+
+.work .fa-caret-down, .creative .fa-caret-down, .corporate .fa-caret-down, .portfolio .fa-caret-down{
+    top: 45px;
+    right: 36px;
+    font-size: 32px;
+}
+
+ .fa-eye{
+    font-size: 10px;
+    top: -32%;
+}
+/*FIN PROJETS*/
+
+/*FORMULAIRE*/
+.formulaire_form{
+    width: auto;
+}
+/*FIN FORMULAIRE*/
