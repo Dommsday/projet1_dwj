@@ -1,2 +1,2 @@
 # projet1_dwj
-Projet 1 WebAgency petit test de git
+Le fichier README ne contient seulement un petit message pour vous remercier du temps passé à la correction ^^
